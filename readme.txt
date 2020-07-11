@@ -37,3 +37,13 @@ vcc   =   4
 gnd   =   6
 tx    =  RXD0
 rx    =  TXD0
+
+
+ git init
+ git add .
+ git commit -m "first"
+ git config user.email 
+ git config user.name
+ git remote add origin https://github.com/sotoedu/mh_z19Co2.git
+ git push -u origin master
+
