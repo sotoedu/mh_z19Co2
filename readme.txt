@@ -32,7 +32,7 @@ $ sudo python ./mh_z19.py
 co2 = 453
 
 
-co2    ||  board
+co2    ||  board pin (Not GPIO)
 vcc   =   4
 gnd   =   6
 tx    =  RXD0
