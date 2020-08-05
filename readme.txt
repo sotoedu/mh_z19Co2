@@ -1,3 +1,25 @@
+ sudo vi /boot/config.txt
+ 
++enable_uart=1
+
+$ sudo reboot
+
+$ sudo pip install redis
+$ sudo pip install getrpimodel
+
+$ sudo mkdir -p /home/pi/LOG/
+$ sudo python ./mh_z19.py
+co2 = 453
+
+co2    ||  board pin (Not GPIO)
+vcc   =   4
+gnd   =   6
+tx    =  RXD0
+rx    =  TXD0
+
+
+-------------------------------------------------------------
+
 https://qiita.com/revsystem/items/5a362e749ef80358e801
 
  sudo vi /boot/config.txt
